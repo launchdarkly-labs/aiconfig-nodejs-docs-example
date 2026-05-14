@@ -19,4 +19,4 @@ Endpoint is on `/` and will return a list of products that match the user's pref
 
 ### Monitoring
 
-This example is built with openAI and as such uses the built-in `trackOpenAiMetrics()` method to track the completion.
+This example is built with OpenAI and uses the `@launchdarkly/server-sdk-ai-openai` provider package to track the completion. The tracker's `trackMetricsOf` method is paired with `getAIMetricsFromResponse` from that package to extract token usage and latency from the OpenAI response.
