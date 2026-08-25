@@ -299,10 +299,15 @@
     https-proxy-agent "^5.0.1"
     launchdarkly-eventsource "2.0.3"
 
-"@launchdarkly/server-sdk-ai@0.6.0":
+"@launchdarkly/server-sdk-ai-openai@^0.6.0":
   version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@launchdarkly/server-sdk-ai/-/server-sdk-ai-0.6.0.tgz#f81b35ede6a399ed82bd33244f010e6fdc2581d4"
-  integrity sha512-ua+HDnkz/AHsfds6vQRrsqN9nStWKDs7RGAah+JO/w/q3AHvOp5IoIDuhF8sLXhwAvrZHAJo59gTkwJgzQYFOg==
+  resolved "https://registry.yarnpkg.com/@launchdarkly/server-sdk-ai-openai/-/server-sdk-ai-openai-0.6.0.tgz#abb080e7eff2ba8eb59c44809dbd1501053ddd95"
+  integrity sha512-CENBUqX/bBXmvJI1AVj5eDX5BZZpNOaBW72wQ1P5PK+VlFkIQ/EAOJT9IjA3VoOA0+w/GjgnV3n5K/rrhtt0kQ==
+
+"@launchdarkly/server-sdk-ai@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@launchdarkly/server-sdk-ai/-/server-sdk-ai-0.20.0.tgz#83f0dfe03b6ebd3af20817ad3c73f1a5450439f0"
+  integrity sha512-H8B6Zooq5jnALDUkQy+5IrLQ6OerSvY/qPCEYA0YVo0RgQgJQnsXzhD4ZR40Rek1ajmEgbcJgjQB5QrTVDDU1g==
   dependencies:
     mustache "^4.2.0"
 

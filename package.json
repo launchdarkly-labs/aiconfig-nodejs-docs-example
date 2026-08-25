@@ -10,7 +10,8 @@
   "dependencies": {
     "@hapi/hapi": "21.3.12",
     "@launchdarkly/node-server-sdk": "9.7.2",
-    "@launchdarkly/server-sdk-ai": "0.6.0",
+    "@launchdarkly/server-sdk-ai": "^0.20.0",
+    "@launchdarkly/server-sdk-ai-openai": "^0.6.0",
     "dotenv": "16.4.7",
     "nodemon": "3.1.7",
     "openai": "4.76.1",
